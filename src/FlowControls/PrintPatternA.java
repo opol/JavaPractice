@@ -1,0 +1,20 @@
+package FlowControls;
+
+/**
+ * Created by Ulyana_Opolska on 6/1/2016.
+ */
+public class PrintPatternA {
+    public static void main(String[] args) {
+
+        for (int row = 1; row <= 8; row++) {
+            for (int col = 1; col <= row; col++) {
+                System.out.print("# ");
+            }
+            System.out.println();
+
+
+        }
+
+
+    }
+}
